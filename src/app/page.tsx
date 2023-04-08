@@ -1,13 +1,11 @@
 import Icon from "@/components/Icon";
 import formatCurrency from "@/utils/formatCurrency";
-import getProducts from "@/utils/getProducts";
+import products from "@/utils/products.json";
 import Image from "next/image";
 import Link from "next/link";
 import { Star } from "react-feather";
 
 export default async function Home() {
-  const products = await getProducts();
-
   return (
     <ul className="gap-8 grid items-center grid-cols-[repeat(auto-fit,_minmax(240px,_1fr))]">
       {products.map((product) => (

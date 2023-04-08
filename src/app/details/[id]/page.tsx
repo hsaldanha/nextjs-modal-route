@@ -1,6 +1,6 @@
 import Icon from "@/components/Icon";
 import formatCurrency from "@/utils/formatCurrency";
-import getProducts from "@/utils/getProducts";
+import products from "@/utils/products.json";
 import Image from "next/image";
 import { Star } from "react-feather";
 
@@ -13,7 +13,6 @@ interface ProductDetailPageProps {
 export default async function ProductDetailPage({
   params,
 }: ProductDetailPageProps) {
-  const products = await getProducts();
   const product = products.find((item) => item.id === Number(params.id));
 
   if (!product) {
