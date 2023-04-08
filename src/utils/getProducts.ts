@@ -1,5 +1,5 @@
 export default async function getProducts(): Promise<Array<Product>> {
-  return fetch("http://localhost:3000/api/products", {
+  return fetch(process.env.API_URL + "/products", {
     method: "GET",
   }).then((res) => res.json());
 }

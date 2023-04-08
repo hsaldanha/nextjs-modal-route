@@ -27,6 +27,8 @@ export default async function ProductDetailPage({
           src={product.image}
           alt={product.title}
           className="object-cover object-center"
+          width={500}
+          height={500}
         />
       </div>
       <div className="flex flex-col h-full max-w-md">

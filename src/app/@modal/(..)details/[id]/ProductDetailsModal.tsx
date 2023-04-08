@@ -60,6 +60,8 @@ function ProductDetailsModal({ product }: ProductDetailsModalProps) {
                         src={product.image}
                         alt={product.title}
                         className="object-cover object-center"
+                        width={500}
+                        height={500}
                       />
                     </div>
                     <div className="sm:col-span-8 lg:col-span-7 flex flex-col h-full">
