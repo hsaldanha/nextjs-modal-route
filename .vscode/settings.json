@@ -1,0 +1,12 @@
+{
+  "tailwindCSS.experimental.configFile": "./tailwind.config.js",
+  "tailwindCSS.experimental.classRegex": [
+    [
+      "cva\\(([^)]*)\\)",
+      "[\"'`]([^\"'`]*).*?[\"'`]"
+    ]
+  ],
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "editor.formatOnSave": true
+}
