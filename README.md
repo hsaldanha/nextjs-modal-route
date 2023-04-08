@@ -7,3 +7,15 @@ This is a sample Next.js application that shows how to utilize the new [Parallel
 
 ![Preview](https://user-images.githubusercontent.com/28585270/230704579-979f8abd-af21-4292-ac40-6a0eda3b0e39.mp4)
 
+## Demo
+
+https://nextjs-modal-route.vercel.app/
+
+## Run locally
+
+```bash
+git clone https://github.com/hsaldanha/nextjs-modal-route.git
+cd nextjs-modal-route/
+npm install
+npm run dev
+```
